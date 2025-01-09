@@ -1,6 +1,9 @@
 ```{include} ../README.md
 ```
 
+```{include} ../CHANGELOG.md
+```
+
 ```{toctree}
 :maxdepth: 1
 :hidden:
