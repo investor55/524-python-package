@@ -1,10 +1,13 @@
+[project]
+name = "pycounts-524-J-Test"
+
 [tool.poetry]
-name = "pycounts"
 version = "0.1.0"
 description = "Counting words in a text file"
 authors = ["Jiayi Li"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "pycounts_524_J_Test", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
