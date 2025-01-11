@@ -1,26 +1,24 @@
-# pycounts
+# pycounts-524-J-Test
 
-Individual assignment. 
+524 Project
 
 ## Installation
 
 ```bash
-$ pip install pycounts
+$ pip install pycounts-524-J-Test
 ```
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
-as follows:
-
 ```python
-import pycounts_tt25
-import matplotlib.pyplot as plt
+from pycounts_524_J_Test.pycounts import count_words
+from pycounts_524_J_Test.plotting import plot_words
 
-file_path = "test.txt"  # path to your file
-counts = pycounts_tt25.count_words(file_path)
-fig = pycounts_tt25.plot_words(counts, n=10)
-plt.show()
+# Count words in a text file
+word_counts = count_words("path/to/text/file.txt")
+
+# Create a plot of word counts
+plot_words(word_counts)
 ```
 
 ## Contributing
