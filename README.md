@@ -7,7 +7,9 @@
 ```bash
 $ pip install pycounts-524-J-Test
 ```
-
+```bash
+$ pip install -i https://test.pypi.org/simple/ pycounts-524-J-Test==0.1.0
+```
 ## Usage
 
 ```python
