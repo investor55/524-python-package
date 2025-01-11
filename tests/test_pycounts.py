@@ -1,4 +1,6 @@
-from pycounts import count_words
+# from pycounts import count_words
+from pycounts.pycounts import count_words, load_text, clean_text
+
 from collections import Counter
 
 def test_count_words():
