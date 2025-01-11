@@ -1,6 +1,6 @@
 # pycounts
 
-testing
+Individual assignment. 
 
 ## Installation
 
@@ -10,7 +10,18 @@ $ pip install pycounts
 
 ## Usage
 
-- TODO
+`pycounts` can be used to count words in a text file and plot results
+as follows:
+
+```python
+import pycounts_tt25
+import matplotlib.pyplot as plt
+
+file_path = "test.txt"  # path to your file
+counts = pycounts_tt25.count_words(file_path)
+fig = pycounts_tt25.plot_words(counts, n=10)
+plt.show()
+```
 
 ## Contributing
 
